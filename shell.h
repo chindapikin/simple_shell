@@ -51,7 +51,7 @@ struct info
 /*Prototypes Used*/
 
 int _putchar(char c);
-int main(int argc, char **argv, char *envp);
+int main(int argc, char **argv, char *envp[]);
 int handle_builtin(char **command, char *line);
 
 /* Handles Builtin Parameters*/
@@ -74,7 +74,7 @@ char *_strchr(char *s, char c);
 void execution(char *cp, char **cmd);
 char *find_path(void);
 void prompt_user(void);
-
+int print_s(char *s);
 
 /* environment variables */
 extern char **environ;

@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-int main(int argc, char **argv, char *envp)
+int main(int argc, char **argv, char *envp[])
 {
 	char *line = NULL, *pathcommand = NULL, *path = NULL;
 	ssize_t linesize = 0;
