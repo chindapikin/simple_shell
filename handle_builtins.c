@@ -21,11 +21,13 @@ int handle_builtin(char **command, char *line)
 		exit_cmd(command, line);
 		return (1);
 	}
-	/*else if (_strcmp(*command, builtin.cd) == 0)
+	/*
+	 * else if (_strcmp(*command, builtin.cd) == 0)
 	{
 		change_dir(command, line);
 		return (1);
-	}*/
+	}
+	*/
 	return (0);
 }
 
